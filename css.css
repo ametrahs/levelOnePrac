@@ -7,22 +7,53 @@
     margin-top: 10px;
     border-radius: 4px;
     cursor: pointer;
+    margin-right: 10px;
     
 }
-.sub:active, .sub:hover{
-    background-color: whitesmoke;
+.sub:active, .sub:hover, .subOne:hover,  .sub2:hover {
+    background-color: rgba(245, 245, 245, 0.548);
+    color: black;
+    border: 1px solid rgb(227, 10, 234);
 }
 .subOne{
     padding: 12px 32px; 
     color: blue;
     border: 1px solid blue;
     border-radius: 4px;
+     margin-right: 10px;
 }
 .sub2{
     border: none;
-    border-radius: 50%;
+    border-radius: 25px;
     font-weight: bold;
     padding: 12px 32px;
     background-color: rgb(21, 144, 244);
     color: white;
+}
+.uber{
+    background-color: black;
+    padding: 12px 32px;
+    color: white;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+.ama{
+    background-color: gold;
+    padding: 12px 32px;
+    width: 250px;
+    border: none;
+    border-radius: 25px;
+    margin-left: 10px;
+    font-weight: 500;
+      font-size: 15px;
+}
+.hub{
+    color: white;
+    background-color: rgb(46,164,79);
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 12px 32px;
+    font-weight: bold;
+    font-size: 15px;
 }
